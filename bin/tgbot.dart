@@ -4,7 +4,7 @@ import 'package:teledart/telegram.dart';
 import 'package:tgbot/tgbot.dart';
 
 Future<void> main(List<String> args) async {
-  final bot = TeleDart("5263603881:AAGGTIWGAyPyLbZpeJO_vHEYELcdMnSw8wg",
+  final bot = TeleDart("",
       Event("@dartbottestbot"));
 
   bot.start();
